@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Classes</title>
+	<title>Revolutionizing The World With Acaham</title>
 	<meta charset="UTF-8">
 	<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +15,36 @@
 		}
 		h1 {
 			color: #ffffff;
-			font-size: 50px;
-			font-family: pixel;
+			font-size: 60px;
+			font-family: Times, serif;
+		}
+		button {
+			font-size: 15px;
+			width: 85px;
+			height: 50px;
 		}
 	</style>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-7880360884174175" crossorigin="anonymous"></script>
 </head>
 <body>
 	<h1>Revolutionizing The World With Acaham</h1>
+	<button id="myButton">Monkey</button>
+	<script>
+		var urlObj = new window.URL(window.location.href);
+		var url = "https://monkeytype.gq/";
+		document.querySelector('#myButton').onclick = function() {
+			var win = window.open();
+			win.document.body.style.margin = '0';
+			win.document.body.style.height = '100vh';
+			var iframe = win.document.createElement('iframe');
+			iframe.style.border = 'none';
+			iframe.style.width = '100%';
+			iframe.style.height = '100%';
+			iframe.style.margin = '0';
+			iframe.src = url;
+			win.document.body.appendChild(iframe);
+		}
+	</script>
 	<!-- Website content goes here -->
 </body>
 </html>
