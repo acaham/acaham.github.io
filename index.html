@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Classes</title>
+	<title>Classesa</title>
 	<meta charset="UTF-8">
 	<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,10 +28,11 @@
 </head>
 <body>
 	<h1>Revolutionizing The World With Acaham</h1>
-	<button id="myButton">Monkey</button>
+	<button id="myButton">Netlify</button>
+	<button id="myButton2">Monkey</button>
 	<script>
 		var urlObj = new window.URL(window.location.href);
-		var url = "https://monkeytype.gq/";
+		var url = "https://netlifey.app/play";
 		document.querySelector('#myButton').onclick = function() {
 			var win = window.open();
 			win.document.body.style.margin = '0';
@@ -42,6 +43,20 @@
 			iframe.style.height = '100%';
 			iframe.style.margin = '0';
 			iframe.src = url;
+			win.document.body.appendChild(iframe);
+		}
+		var urlObj2 = new window.URL(window.location.href);
+		var url2 = "https://monkeytype.gq/";
+		document.querySelector('#myButton2').onclick = function() {
+			var win = window.open();
+			win.document.body.style.margin = '0';
+			win.document.body.style.height = '100vh';
+			var iframe = win.document.createElement('iframe');
+			iframe.style.border = 'none';
+			iframe.style.width = '100%';
+			iframe.style.height = '100%';
+			iframe.style.margin = '0';
+			iframe.src = url2;
 			win.document.body.appendChild(iframe);
 		}
 	</script>
