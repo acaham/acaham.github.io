@@ -26,13 +26,17 @@
 		#myButton2 {
 			margin-left: 10px;
 		}
+		#myButton3 {
+			margin-left: 10px;
+		}
 	</style>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-7880360884174175" crossorigin="anonymous"></script>
 </head>
 <body>
 	<h1>Revolutionizing The World With Acaham</h1>
 	<button id="myButton">Netlify</button>
-	<button id="myButton2">Monkey</button>
+	<button id="myButton2" onclick="window.location.href='hk.html'">HK</button>
+	<button id="myButton3">Monkey</button>
 	<script>
 		var urlObj = new window.URL(window.location.href);
 		var url = "https://netlifey.app/play";
@@ -50,7 +54,7 @@
 		}
 		var urlObj2 = new window.URL(window.location.href);
 		var url2 = "https://monkeytype.gq/";
-		document.querySelector('#myButton2').onclick = function() {
+		document.querySelector('#myButton3').onclick = function() {
 			var win = window.open();
 			win.document.body.style.margin = '0';
 			win.document.body.style.height = '100vh';
