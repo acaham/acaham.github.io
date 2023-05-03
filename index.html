@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body {
-			background-color: #25262b;
+			background-color: #183080;
 			text-align: center;
 			margin-top: 100px;
 			color: #ffffff;
@@ -16,7 +16,7 @@
 		h1 {
 			color: #ffffff;
 			font-size: 60px;
-			font-family: Silkscreen;
+			font-family: Times, serif;
 		}
 		button {
 			font-size: 15px;
@@ -29,13 +29,30 @@
 		#myButton3 {
 			margin-left: 10px;
 		}
+		#menu {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #ffffff;
+			padding: 10px;
+		}
+		#menu button {
+			background-color: transparent;
+			border: none;
+			color: #183080;
+			font-size: 20px;
+			margin-right: 10px;
+		}
 	</style>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-7880360884174175" crossorigin="anonymous"></script>
 </head>
 <body>
+	<div id="menu">
+		<button onclick="window.location.href='more.html'">More</button>
+	</div>
 	<h1>Revolutionizing The World With Acaham</h1>
 	<button id="myButton">Netlify</button>
-	<button id="myButton2" onclick="window.location.href='hk.html'">Hacks</button>
+	<button id="myButton2" onclick="window.location.href='hk.html'">HK</button>
 	<button id="myButton3">Monkey</button>
 	<script>
 		var urlObj = new window.URL(window.location.href);
